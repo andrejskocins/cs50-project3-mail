@@ -11,7 +11,9 @@
     <a class="btn btn-sm btn-outline-primary" href="{% url 'logout' %}">Log Out</a>
     <hr>
 
-    <div id="emails-view">
+    <div id="emails-view" data-archive-icon="{% static 'mail/img/archive.png' %}"
+                          data-unarchive-icon="{% static 'mail/img/unarchive.png' %}"
+                          data-reply-icon="{% static 'mail/img/reply.png' %}">
     </div>
 
     <div id="compose-view">
